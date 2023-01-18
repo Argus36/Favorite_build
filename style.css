@@ -1,0 +1,216 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header_section {
+    background-image: url("photo/headimg.jpg");
+    background-size: cover;
+}
+.header {
+    margin-bottom: 10px;
+}
+.header .img , .img2 {
+    width: 50px;
+}
+.header .img1 {
+    width:65px;
+    transform: translateY(10%);
+    margin-left: 35px;
+}
+.header .img4 {
+    width: 70px;
+    transform: translateY(20%);
+}
+.header .menu_item , .menu_item_word1 , .menu_item_word2 , .menu-item_word3 , .menu-item_word4 {
+    display: inline-block;
+}
+.header .menu_item_word1 , .menu_item_word2 , .menu-item_word3 {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    transform: translateY(-10%);
+}
+.header .menu_item_word2 {
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 40px;
+    transform: translateY(-50%);
+}
+.header .img2 {
+    transform: translateY(-450%);
+}
+.header .menu-item_word3 {
+    font-size: 10px;
+    font-weight: 100;
+    transform: translateX(-90%);
+}
+.header .menu-item_word4 {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    border: solid yellow 1px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 15px 10px;
+    transform: translateY(-30%);
+}
+.header .menu-item_word4:hover {
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 20px 15px;
+}
+.section .section1 , .section2 {
+    display: inline-block;
+}
+.section1 {
+    width: 400px;
+    margin-top: 10px;
+}
+.section1 .bigword {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 25px 0px 10px 0px;
+}
+.section1 .table .img , tr{
+    width: 30px;
+    padding-top: 15px;
+}
+.section .img1 {
+    width: 100px;
+    margin: 20px 0px 0px 50px;
+}
+.section .black {
+    font-weight: 900;
+    font-size: 19px;
+}
+.section2{
+    border: solid lightgray 1px;
+    border-radius: 20px;
+    float: right;
+    padding: 10px 50px 15px 50px;
+    background-color: white;
+    margin-top: 10px;
+}
+.section2 .p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.section2 .gray {
+    color: gray;
+}
+.section .td {
+    padding-right: 60px;
+    text-align: left;    
+}
+.section .td2 {
+    padding-left: 60px;
+    text-align: right;
+}
+.section .td3 {
+    padding-left: 60px;
+    text-align: left; 
+}
+.section .td4 {
+    padding-right: 60px;
+    text-align: left; 
+    padding-top: 10px;
+}
+.section .td5 {
+    padding-left: 60px;
+    text-align: left; 
+    padding-top: 10px;
+}
+.section2 .select {
+    width: 150px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 10px;
+}
+.section2 .tr {
+    padding-bottom: 10px;
+}
+.section2 .button {
+    border: solid yellow 1px;
+    background-color: yellow;
+    padding: 25px 15px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+}
+.section2 .footer {
+    margin-top: 40px;
+    text-align: center;
+}
+.section2 .minigray {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.article .words {
+    margin: auto;
+    width: 650px;
+}
+.article .words .bigword {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.article .words .gray {
+    text-align: center;
+}
+.article .photo table {
+    margin: auto;
+}
+.article .photo img {
+    width: 300px;
+    height: 200px;
+}
+.article .photo td {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.reviews .bigword {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.reviews img {
+    width: 300px;
+    height: 200px;
+}
+.reviews table {
+    margin: auto;
+}
+.reviews td {
+    padding-right: 60px;
+}
+.reviews .img1 {
+    width: 50px;
+    height: 40px;
+}
+.reviews .a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+}
+.reviews .p {
+    margin: 0 0 0 15px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
